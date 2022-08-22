@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Zeren Yu</title>
+  
+  <meta name="author" content="Zeren Yu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Zeren Yu</name>
+              </p>
+              <p>I am a master student major in <b>Computer Science</b> at 
+              <br><a href="https://www.usc.edu//">University of Southern California, Los Angeles</a>. 
+              <br>I recieved my Bachelar of Science Degree in 
+              <br>Computer Science and Data Science
+              <br>from <a href="https://umich.edu/">University of Michigan</a>, 
+              supervised by <a href="https://ocj.name/">Prof. Odest Chadwicke Jenkins</a>
+              </p>
+              <p>
+                My research interests lie in 3D vision, robotics manipulation and machine learning. 
+              </p>
+              <p style="text-align:center">
+                <!-- <a href="data/huijiezh-CV.pdf">CV</a> &nbsp/&nbsp -->
+                <a href="https://scholar.google.com/citations?user=z8-Rz4oAAAAJ&hl=en&authuser=3&oi=ao">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/ZerenYu">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/Zeren-circle.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/Zeren-circle.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>News</heading>
+            <p style="text-align:left;font-size:small;">
+              [07/2022] Our work on <a href="https://arxiv.org/abs/2203.03890">Clearpose</a>  was accepted by ECCV2022!
+            </p>
+            <p style="text-align:left;font-size:small;">
+              [06/2022] Our work on <a href="https://arxiv.org/abs/2203.00283">Progresslabeller</a> was accepted by IROS2022!
+            </p>
+
+          </td>
+
+        </tr>
+      </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publication</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="clearpose_stop()" onmouseover="clearpose_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='clearpose_image'>
+                  <img src='images/clearpose_after.png' width="160"></div>
+                <img src='images/clearpose_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function clearpose_start() {
+                  document.getElementById('clearpose_image').style.opacity = "1";
+                }
+
+                function clearpose_stop() {
+                  document.getElementById('clearpose_image').style.opacity = "0";
+                }
+                clearpose_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2203.03890">
+                <papertitle>ClearPose: Large-scale Transparent Object Dataset and Benchmark</papertitle>
+              </a>
+              <br>
+              <a href="https://sites.google.com/umich.edu/xiaotong-chen/home">Xiaotong Chen</a>,
+              <a href="https://www.huijiezh.com/">Huijie Zhang</a>, 
+							<strong>Zeren Yu</strong>, <br>
+              <a href="https://topipari.com/">Anthony Opipari</a>,
+              <a href="https://ocj.name/">Odest Chadwicke Jenkins</a>,
+              <br>
+              <em>ECCV</em>, 2022
+              <br>
+              <a href="https://arxiv.org/abs/2203.03890">arXiv</a>
+              /<a href="https://github.com/opipari/ClearPose">github</a>
+              /<a href="https://progress.eecs.umich.edu/projects/clearpose/#cite">website</a>
+              <p></p>
+              <p>
+              We collect a large-scale transparent object dataset with RGB-D and annotated poses. 
+              And we benchmark transparent object depth completion and poes estimation on this dataset.
+              </p>
+            </td>
+          </tr>
+					
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div >
+                <img src='images/progresslabeller.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2203.00283">
+                <papertitle>ProgressLabeller: Visual Data Stream Annotation for Training Object-Centric 3D Perception</papertitle>
+              </a>
+              <br>
+              <a href="https://sites.google.com/umich.edu/xiaotong-chen/home">Xiaotong Chen</a>,
+              <a href="https://www.huijiezh.com/">Huijie Zhang</a>, 
+							<strong>Zeren Yu</strong>, <br>
+              <a href="https://scholar.google.com/citations?user=D8nfug0AAAAJ&hl=en">Stanley Lewis</a>,
+              <a href="https://ocj.name/">Odest Chadwicke Jenkins</a>,
+              <br>
+              <em>IROS</em>, 2022
+              <br>
+              <a href="https://arxiv.org/abs/2203.00283">arXiv</a>
+              /<a href="https://github.com/huijieZH/ProgressLabeller">github</a>
+              <p></p>
+              <p>
+              ProgressLabeller is an efficient 6D pose annotation method. It is also the first open source tools compatible with transparent object. 
+              It is implemented as a blender Add-on, more user-friendly for using.
+              </p>
+            </td>
+          </tr>
+
+          <!-- <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/nerf_supervision.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/nerf_supervision.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function nerfsuper_start() {
+                  document.getElementById('nerfsuper_image').style.opacity = "1";
+                }
+
+                function nerfsuper_stop() {
+                  document.getElementById('nerfsuper_image').style.opacity = "0";
+                }
+                nerfsuper_stop()
+              </script>
+            </td>
+            
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://waymo.com/research/block-nerf/">
+                <papertitle>NeRF-Supervision: Learning Dense Object Descriptors from Neural Radiance Fields</papertitle>
+              </a>
+              <br>
+              <a href="https://yenchenlin.me/">Lin Yen-Chen</a>, 
+              <a href="http://www.peteflorence.com/">Pete Florence</a>, 
+              <strong>Jonathan T. Barron</strong>,  <br>
+              <a href="https://scholar.google.com/citations?user=_BPdgV0AAAAJ&hl=en">Tsung-Yi Lin</a>, 
+              <a href="https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU">Alberto Rodriguez</a>,
+              <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>
+              <br>
+              <em>ICRA</em>, 2022  
+              <br>
+							<a href="http://yenchenlin.me/nerf-supervision/">project page</a> / 
+							<a href="https://arxiv.org/abs/2203.01913">arXiv</a> / 
+							<a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> /
+							<a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> / 
+							<a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				
+              <p></p>
+              <p>NeRF works better than RGB-D cameras or multi-view stereo when learning object descriptors.</p>
+            </td>
+          </tr> -->
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Selected Project</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>			
+			
+          <tr onmouseout="deeperblue_stop()" onmouseover="deeperblue_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='deeperblue_image'>
+                  <img src='images/deeperblue.gif' width="160"></div>
+                <img src='images/deeperblue.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function deeperblue_start() {
+                  document.getElementById('deeperblue_image').style.opacity = "1";
+                }
+
+                function deeperblue_stop() {
+                  document.getElementById('deeperblue_image').style.opacity = "0";
+                }
+                nerfsuper_stop()
+              </script>
+            </td>
+            
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://www.youtube.com/watch?v=lNA6ugQLZcQ&t=4s">
+                <strong>Deeper Blue: Intelligent Human-interactive Chess Playing Robot
+                </strong>
+              </a>
+              <br>
+              <strong>Zeren Yu</strong>, Dingkun Guo, Enpei Zhao
+              <br>
+              <!-- <a href="https://github.com/huijieZH/Deep-reinforcement-learning-on-deeperblue">github</a> -->
+              <p></p>
+
+              <p>This Project integrated Computer Vision, forward kinematic, Q-learning and Arduino</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="MOT_stop()" onmouseover="MOT_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='deeperblue_image'>
+                  <img src='images/MOT.gif' width="160"></div>
+                <img src='images/MOT.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function MOT_start() {
+                  document.getElementById('MOT_image').style.opacity = "1";
+                }
+
+                function MOT_stop() {
+                  document.getElementById('MOT_image').style.opacity = "0";
+                }
+                nerfsuper_stop()
+              </script>
+            </td>
+            
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<!-- <a href="https://drive.google.com/file/d/1-FvmyTf55A1y6r3EBEZSt2CyOl1NYArG/view?usp=sharing"> -->
+                <strong>
+                  Multiple Object Tracking (MOT)</strong>
+              </a>
+              <br>
+              <strong>Zeren Yu</strong>, Zewen Wu, Huixi Yao, Boyang Huang
+              <br>
+              <!-- <a href="https://github.com/huijieZH/Deep-reinforcement-learning-on-deeperblue">github</a> -->
+              <p></p>
+
+              <p>This project used object detection neural network and kalman filter to address Multiple Object Tracking problem</p>
+            </td>
+          </tr>
+
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                <br>
+                This website has been inspired by <a href="https://jonbarron.info/">Jon Barron</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
